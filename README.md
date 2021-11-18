@@ -9,7 +9,7 @@
 ## Usage
 
 ```
-server running:  bazel run -- start-server
+server running:  bazel run snake_app -- start-server
 after which, the command line will print out the sever ip
 client1 running:  bazel run snake_app -- create 123 <client_name1> <server_ip> <client1_port> 
 client2 running:  bazel run snake_app -- join 123 <client_name2> <server_ip> <client2_port>
